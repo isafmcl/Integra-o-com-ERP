@@ -2,7 +2,7 @@
 
 Sistema de dashboard para monitoramento de estoque e vendas, integrado com banco de dados MySQL, desenvolvido com FastAPI e Streamlit.
 
-## 🛠️ Tecnologias Utilizadas
+## Tecnologias Utilizadas
 
 - Python 3.11+
 - FastAPI (API REST)
@@ -12,7 +12,7 @@ Sistema de dashboard para monitoramento de estoque e vendas, integrado com banco
 - Pandas (Manipulação de dados)
 - Plotly (Gráficos interativos)
 
-## 📁 Estrutura do Projeto
+##  Estrutura do Projeto
 
 ```
 erp_dashboard/
@@ -29,7 +29,7 @@ erp_dashboard/
 └── requirements.txt # Dependências
 ```
 
-## ⚙️ Configuração
+##  Configuração
 
 1. Clone o repositório
 2. Crie um ambiente virtual Python:
@@ -53,7 +53,7 @@ erp_dashboard/
    DB_PORT=3306
    ```
 
-## 🚀 Executando o Projeto
+## Executando o Projeto
 
 1. Inicie a API:
    ```bash
@@ -73,7 +73,7 @@ erp_dashboard/
    python email_alert.py
    ```
 
-## 🌟 Funcionalidades
+## Funcionalidades
 
 ### API REST (FastAPI)
 - Lista de produtos
@@ -94,7 +94,7 @@ erp_dashboard/
 - Monitoramento de estoque baixo
 - Simulação de envio de alertas por e-mail
 
-## 📊 Endpoints da API
+## Endpoints da API
 
 - `GET /produtos` - Lista todos os produtos
 - `GET /vendas` - Lista vendas com filtros
@@ -105,7 +105,7 @@ erp_dashboard/
 - `GET /analytics/margem-lucro` - Margem de lucro por produto
 - `GET /analytics/mais-vendidos` - Ranking de produtos mais vendidos
 
-## 📝 Documentação da API
+## Documentação da API
 
 Após iniciar a API, acesse:
 - Documentação Swagger UI: http://localhost:8000/docs
